@@ -6,8 +6,7 @@ public class PalindromeString {
         boolean flag = true;
         name = name.toLowerCase();
         for (int i = 0; i < name.length() / 2; i++) {
-            if (name.charAt(i) != name.charAt(name
-                    .length() - i - 1)) {
+            if (name.charAt(i) != name.charAt(name.length() - i - 1)) {
                 flag = false;
                 break;
             }
