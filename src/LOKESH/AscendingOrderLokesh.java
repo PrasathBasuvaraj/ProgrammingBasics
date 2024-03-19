@@ -1,8 +1,6 @@
 package LOKESH;
 
-import java.util.Arrays;
-
-public class AscendingOrder {
+public class AscendingOrderLokesh {
     public static void main(String[] args) {
         int[] arr = new int[]{88, 96, 333, 417, 500};
         int temp = 0;
