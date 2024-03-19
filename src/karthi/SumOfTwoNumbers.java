@@ -1,3 +1,5 @@
+package karthi;
+
 public class SumOfTwoNumbers {
     public static void main(String[] args) {
         int john = 5;
