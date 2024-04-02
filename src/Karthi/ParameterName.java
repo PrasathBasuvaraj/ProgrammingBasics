@@ -1,7 +1,7 @@
 package Karthi;
 
 public class ParameterName {
-    public static void myMethod(String name) {
+    static void myMethod(String name) {
         System.out.println(name);
     }
 
