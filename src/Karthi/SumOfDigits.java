@@ -9,7 +9,7 @@ public class SumOfDigits {
     }
 
     public static void main(String[] args) {
-        int number = 12345;
+        int number = 72737475;
         int result = sum(number);
         System.out.println("Sum of digits " + number + " is " + result);
     }
