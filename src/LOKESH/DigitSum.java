@@ -9,6 +9,6 @@ public class DigitSum {
             sum += digit;
             number /= 10;
         }
-        System.out.println(number+sum);
+        System.out.println(number + sum);
     }
 }
