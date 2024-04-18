@@ -3,7 +3,8 @@ public class BadRecursion {
         badMethod();
     }
 
-    private static void badMethod() {
+    static void badMethod() {
+        badMethod();
         System.out.println("Caught you dead !!!!!!!!!!!!!!!!");
         badMethod();
     }
